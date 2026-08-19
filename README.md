@@ -43,6 +43,12 @@ rustc --version
 
 ### Linux
 
+Install the required system libraries (used to build against `libudev` for serial port enumeration):
+
+```bash
+sudo apt update && sudo apt install -y pkg-config libudev-dev
+```
+
 Build the release binary:
 
 ```bash
